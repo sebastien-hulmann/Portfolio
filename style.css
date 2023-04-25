@@ -37,7 +37,7 @@ body {
 }
 
 .content h1 {
-  font-size: 3.5em;
+  font-size: 5em;
   margin: 3rem 0;
   color: #0dc6cc;
   text-shadow: 2px 2px 0px #010101;
@@ -45,7 +45,7 @@ body {
 }
 
 .content h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-top: -5vh;
   color: #0dc6cc;
   text-shadow: 2px 2px 0px #010101;
@@ -66,10 +66,9 @@ body {
 }
 
 /*------------------------------------NAV latérale */
-nav {
-  float: left;
-  position: absolute;
-  margin-left: 2%;
+nav {  
+  position: fixed;
+  margin-left: 1%;
   top: 30%;
 }
 
@@ -98,7 +97,7 @@ li:hover {
 }
 
 li a {
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 2;
   text-decoration: none;
   color: #11F4FB;
@@ -114,10 +113,10 @@ li a:hover {
 /* -----------------------------------Section APROPOS */
 #apropos {
   display: none;
-  width: 70vw;
-  margin-top: 10vh;
-  margin-left: 20%;
-  height: 60vh;
+  width: 60vw;
+  margin-top: 10%;
+  margin-left: 25%;
+  height: 100vh;
   color: #0dc6cc;
   text-align: center;
 }
@@ -129,19 +128,16 @@ li a:hover {
   border: 2px solid #EC8D66;
   border-radius: 25px;
   justify-content: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
-#apropos h2 {
-  text-align: center;
-  text-decoration: underline;
-}
+
 
 /* -----------------------------------Section SKILL */
 #skill {
   display: none;
-  width: 70%;
-  margin-top: 20vh;
+  width: 80%;
+  margin-top: 10%;
   margin-left: 25%;
   height: 80vh;
   color: white;
@@ -150,14 +146,14 @@ li a:hover {
 }
 
 #skill img {
-  width: 25%;
+  width: 33%;
   border-radius: 5px;
 }
 
 .top,
 .down {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   margin-bottom: 50px;
 }
 
@@ -168,50 +164,41 @@ li a:hover {
 #projet {
   display: none;
   margin-left: 25%;
-  margin-top: 10vh;
+  margin-top: 7%;
   transform: translate(-25%);
-  width: 30vw;
+  width: 50vw;
   text-align: center;
 }
 
 #projet img {
   border-radius: 15px;
   height: 50vh;
-  width: 50vw;
+  width: 70vw;
   opacity: 0.8;
-}
-
-#projet h2 {
-  margin-left: 80%;
-  margin-bottom: 2vh;
-  color: #0dc6cc;
-  text-decoration: underline;
 }
 
 #projet p {
   padding-bottom: 20px;
   color: #0dc6cc;
-  background-color: #44444477;
+  background-color: #000000;
   margin-left: 25%;
   margin-right: 25%;
+  border-radius: 30px;
 }
 
 
 /* -----------------------------------Section CONTACT */
 #contact {
   display: none;
-  height: 400px;
+  height: 30vh;
   width: 75%;
-  margin-top: 2rem;
+  margin-top: 10%;
   margin-left: 25%;
   align-items: center;
   text-align: center;
   color: #11F4FB;
 }
 
-#contact h2 {
-  text-decoration: underline;
-}
 
 input[type=text],
 select,
