@@ -7,7 +7,7 @@ $(document).ready(function () {
     // Vérifier si la section correspondante est déjà visible
     if ($(section_id).is(":visible")) {
       // Si oui, la masquer avec un effet de transition
-      $(section_id).slideUp(1800);
+      $(section_id).slideUp(1500);
 
       // Supprimer la classe "active" du lien cliqué
       $(this).removeClass("active");
@@ -15,8 +15,8 @@ $(document).ready(function () {
       // Sinon, masquer toutes les autres sections sauf celle correspondante avec un effet de transition
       $(".section")
         .not(section_id)
-        .slideUp(1800, function () {
-          $(section_id).slideDown(1800);
+        .slideUp(1500, function () {
+          $(section_id).slideDown(1500);
         });
 
       // Ajouter la classe "active" au lien cliqué et la supprimer des autres liens
