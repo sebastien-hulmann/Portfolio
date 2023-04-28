@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-image: url("./img/pcviolet.webp");
+  background-image: url("/img/pcviolet.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -86,7 +86,7 @@ ul:hover li:not(:hover) {
 }
 
 li {
-  transform: rotatey(50deg) scaleX(1.5);
+  transform: rotatey(40deg) scaleX(1.5);
   transform-origin: left;
   transition: .3s ease;
 }
