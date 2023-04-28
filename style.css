@@ -114,7 +114,7 @@ li a:hover {
 #apropos {
   display: none;
   width: 60vw;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 25%;
   height: 90%;
   color: #0dc6cc;
@@ -137,9 +137,9 @@ li a:hover {
 #skill {
   display: none;
   width: 60vw;
-  border: 2px solid #EC8D66;
+  border: 3px solid #EC8D66;
   border-radius: 25px;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-left: 25%;
   height: 90%;
   color: white;
@@ -169,13 +169,14 @@ li a:hover {
 /* -----------------------------------Section PROJET */
 #projet {
   display: none;
-  border: 2px solid #EC8D66;
+  border: 3px solid #EC8D66;
   border-radius: 25px;
-  margin-left: 40%;
-  margin-top: 7%;
+  margin-left: 42%;
+  margin-top: 3%;
   transform: translate(-25%);
-  width: 70vw;
+  width: 60vw;
   text-align: center;
+  height: 90%;
 }
 
 #projet img {
@@ -198,7 +199,7 @@ li a:hover {
 /* -----------------------------------Section CONTACT */
 #contact {
   display: none;
-  height: 80%;
+  height: 90%;
   width: 60vw;
   margin-top: 3%;
   margin-left: 25%;
@@ -238,7 +239,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 25px;
-  border: 2px solid #EC8D66;
+  border: 3px solid #EC8D66;
   border-radius: 25px;
   justify-content: center;
   padding: 10px;
