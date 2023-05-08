@@ -220,12 +220,12 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  background-color: #ec8c6630;
+  background-color: #ec8c6601;
+  color: #11F4FB;
 }
 
 input[type=submit] {
-  background-color: #1fa2a7;
-  color: #662106;
+  background-color: #1fa2a7; 
   padding: 10px 20px;
   border: none;
   border-radius: 15px;
